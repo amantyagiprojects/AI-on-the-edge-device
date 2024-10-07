@@ -11,7 +11,7 @@ All you need is an [ESP32 board with a supported camera](https://jomjol.github.i
 <img src="images/esp32-cam.png" width="200px">
 
 ## Key features
-- Tensorflow Lite (TFlite) integration – including easy-to-use wrapper
+- TensorFlow Lite (TFlite) integration – including easy-to-use wrapper
 - Inline image processing (feature detection, alignment, ROI extraction)
 - **Small** and **cheap** device (3 x 4.5 x 2 cm³, < 10 EUR)
 - Integrated camera and illumination
@@ -73,7 +73,7 @@ There are different ways to flash your ESP32:
 See the [documentation](https://jomjol.github.io/AI-on-the-edge-device-docs/Installation/) for more information.
 
 ### Flashing the SD Card
-The SD card can be setup automatically after the firmware got installed. See the [documentation](https://jomjol.github.io/AI-on-the-edge-device-docs/Installation/#remote-setup-using-the-built-in-access-point) for details. For this to work, the SD card must be FAT formated (which is the default on a new SD card).
+The SD card can be setup automatically after the firmware got installed. See the [documentation](https://jomjol.github.io/AI-on-the-edge-device-docs/Installation/#remote-setup-using-the-built-in-access-point) for details. For this to work, the SD card must be FAT formatted (which is the default on a new SD card).
 Alternatively, the SD card still can be set up manually, see the [documentation](https://jomjol.github.io/AI-on-the-edge-device-docs/Installation/#3-sd-card) for details!
 
 ## Casing
